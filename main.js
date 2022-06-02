@@ -274,4 +274,5 @@ async function loadData(url) {
     drawHumidity(geojson);
 };
 
+
 loadData("https://static.avalanche.report/weather_stations/stations.geojson");
